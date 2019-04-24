@@ -1,0 +1,12 @@
+sudo apt-get install libsndfile1-dev libpulse-dev libncurses5-dev libgtk2.0-dev libvorbis-dev libmp3lame-dev
+sudo apt-get install libsndfile1-dev libpulse-dev libncurses5-dev libmp3lame-dev libespeak-dev
+
+$ ./configure
+
+$ make CXXFLAGS=-DNO_SSE
+$ sudo make install
+
+sudo apt-get install pulseaudio pulseaudio-module-zeroconf alsa-utils avahi-daemon
+sudo usermod -a -Gpulse-access pi
+
+sudo usermod -a -Gpulse-access root
