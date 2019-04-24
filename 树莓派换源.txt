@@ -1,0 +1,13 @@
+2-1.执行命令:(stretch)
+   sudo   nano  /etc/apt/sources.list 
+   （1）将文件里的默认的官方软件源用# 注释掉 
+   （2）添加下面的软件源（中国科技大学的软件源 ） （手动添加注意空格）
+deb http://mirrors.ustc.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+执行命令:(stretch)
+sudo  nano  /etc/apt/sources.list.d/raspi.list 
+（1）将文件里的默认的官方软件源用# 注释掉 
+   （2）添加下面的软件源（中国科技大学的软件源 )（手动添加注意空格）
+deb http://mirrors.ustc.edu.cn/archive.raspberrypi.org/ stretch main ui
+3.更新
+     sudo apt-get update 
+     sudo apt-get upgrade 

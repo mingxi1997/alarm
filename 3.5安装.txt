@@ -1,0 +1,5 @@
+cd /boot
+tar xzvf /boot/LCD-show-171219.tar.gz
+cd LCD-show/
+chmod +x LCD35-show
+./LCD35-show

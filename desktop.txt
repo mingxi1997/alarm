@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=example
+Exec=python3 /home/pi/example.py
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true

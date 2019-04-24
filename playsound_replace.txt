@@ -1,0 +1,4 @@
+import subprocess
+
+def playsound(path):
+    subprocess.Popen(['mpg123', '-q', path]).wait()
