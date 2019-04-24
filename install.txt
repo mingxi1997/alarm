@@ -1,0 +1,9 @@
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 200
+
+sudo apt-get install python3-pil python3-pil.imagetk
+
+amixer cset numid=3 1
+
+
+sudo apt-get install mpg123
